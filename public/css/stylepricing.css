@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+}
+
+.parallax{
+    background-image: url('../images/tea.jpg');
+	height: 560px;
+    width: 100%;
+	background-attachment: fixed;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+    /* margin-top: 10rem; */
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.parallax .over{
+    margin-left: 60%;
+    text-align: left;
+}
+.over h1{
+    text-shadow: 0.4px 0.4px rgb(177, 177, 177);
+    color: rgba(126, 126, 126, 0.719);
+}
+
+.button a{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+    font-weight: 600;
+    background-color:#66fcf1;
+    /* border: 4px solid #66fcf1; */
+    margin-top: 0rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 35%;
+    margin-top: 3rem;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+
+.parallax{
+    height: 400px;
+    padding-top: 4rem;
+}
+.parallax .over{
+    margin-left: 40%;
+    text-align: center;
+}
+.over h1{
+    text-shadow: 0.2px 0.2px rgb(216, 216, 216);
+    font-size: 25px;
+    color: rgba(126, 126, 126, 0.719);
+}
+
+
+.button a{
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 18px;
+    font-weight: 520;
+    background-color:#66fcf1;
+    /* border: 4px solid #66fcf1; */
+    margin-top: 0rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+
+}
+
